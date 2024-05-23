@@ -60,7 +60,7 @@ class Settings:
         self.lazer_speed_factor *= self.speedup_scale
         self.alien_points_bullet = int(
             self.alien_points_bullet * self.score_scale
-        )  # noqa
+        )  
         self.alien_points_superbullet = int(
             self.alien_points_superbullet * self.score_scale
         )
