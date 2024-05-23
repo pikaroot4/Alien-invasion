@@ -22,7 +22,7 @@ class Ship(Sprite):
         self.rect.midbottom = (
             int(self.screen_width / 2),
             self.screen_height - 100,
-        )  # noqa
+        ) 
 
         # Save floating coordinates of the center of the ship
         self.x = float(self.rect.x)
@@ -55,5 +55,5 @@ class Ship(Sprite):
         self.rect.midbottom = (
             int(self.screen_width / 2),
             self.screen_height - 100,
-        )  # noqa
+        )  
         self.x = float(self.rect.x)
